@@ -1,0 +1,107 @@
+.instruct {
+    color: white;
+    margin-left: 20%;
+    margin-top: 8%;
+    font-size: 30px;
+    text-shadow: 0 0 8px black;
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+ }
+ body {
+     background: url(WebpageImages/WarmingBackground.png) no-repeat center center fixed;
+     margin: 0 auto;
+     background-size: 100% 100%;
+ }
+ .field1 {
+     margin-left: 23%;
+     width: 250px;
+     height: 100px;
+     margin-top: 3%;
+     z-index: -1;
+ }
+ .field2 {
+     margin-left: 23%; 
+     width: 250px;
+     height: 100px;
+     margin-top: 4%;
+     z-index: -1;
+ }
+ .field3 {
+    margin-left: 23%; 
+    width: 250px;
+    height: 100px;
+    margin-top: 4%;
+    z-index: -1;
+}
+ .submit {
+     display: inline-block;
+     cursor: pointer;
+     padding: 10px 15px;
+     font-size: 24px;
+     text-align: center;
+     text-decoration: none;
+     text-decoration-color: white;
+     outline: none;
+     color: #fff;
+     background-color: rgb(16, 209, 16);
+     height : 200px;
+     width: 200px;
+     position: absolute;
+     z-index: 1;
+     opacity: .75; 
+     border-radius: 70px;
+     margin-left: 67%;
+     margin-bottom: 80%;
+     border: 3px solid green;
+ }
+ .text1 {
+     color: white;
+     font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+     font-size: 18px;
+     margin-left: 10%;
+     position: absolute;
+     z-index: 1;
+     margin-top: 3%;
+ }
+ .text2 {
+     color: white;
+     font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+     font-size: 18px;
+     margin-left: 2%;
+     position: absolute;
+     z-index: 1;
+     margin-top: 4%;
+ }
+ .text3 {
+    color: white;
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    font-size: 18px;
+    margin-left: 9%;
+    position: absolute;
+    z-index: 1;
+    margin-top: 5%;
+}
+.jsOutput {
+    text-align: right;
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    margin-right: 20%;
+    margin-bottom: 80%;
+    font-size: 25px;
+    color: white;
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    width: 250px;
+    height: 100px;
+    margin-left: 25%;
+  }
+  
+  input[type=text]:focus {
+    border: 3px solid #555;
+  }

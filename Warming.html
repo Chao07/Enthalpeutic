@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Melting Buddy</title>
+        <link rel="stylesheet" href="WarmingStyle.css">
+        <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    </head>
+
+    <body>
+        <div class="column">
+            <h5 class="instruct">Fill out the boxes below</h5>
+            <button class="submit" onclick="buttonClicked()">SUBMIT</button>
+            <form>
+                <label class="text1" for="food">Volume of Drink:</label>
+                <input class="field1" type="text" id="food" name="param" placeholder="Volume in mL">
+                <br></br>
+                <label class="text2" for="temp">Proportion of Ice [0-1]:</label>
+                <input class="field2" type="text" id="temp" name="param" placeholder="68">
+                <br></br>
+                <label class="text3" for="insulation">Insulation [0 - 1]:</label>
+                <input class="field3" type="text" id="insluation" name="param" placeholder="0">
+            </form>
+        </div>
+        <h2 class="jsOutput"></h2>
+        <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+        <script src="./Warming.js">
+        </script>
+    </body>
+</html>
